@@ -16,6 +16,8 @@ reminder for various CLI
         "fixed-cidr-v6": "2001:db8:1::/64",
         "hosts": ["unix:///var/run/docker.sock", "tcp://127.0.0.1:2375"]
         }
+        
+* restart docker
 
         sudo systemctl dameon-reload
         sudo systemctl docker restart
