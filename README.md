@@ -21,3 +21,8 @@ reminder for various CLI
 
         sudo systemctl dameon-reload
         sudo systemctl docker restart
+
+## Misc
+
+        df -hT
+        du -hd1 /
