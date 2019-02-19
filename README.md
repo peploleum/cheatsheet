@@ -47,3 +47,12 @@ Copy uuid and replace in /etc/fstab
         
         
         swapon -a
+
+
+## vim
+
+> select block: v
+> copy selection: y
+> paste: P
+> jump to eol and edit: A
+> search: /
