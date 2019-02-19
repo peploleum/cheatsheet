@@ -35,7 +35,7 @@ ubuntu 16.04 resize boot volume (e.g. /dev/vda1)
 * "d" delete first the swap partition (2) and then the /dev/vda1 partition. This is very scary but is actually harmless as the data is not written to the disk until you write the changes to the disk.
 * "n" to create a new primary partition. Make sure its start cylinder is exactly the same as the old /dev/vda1 used to have. 
 * "a" to toggle the bootable flag on the new /dev/sda1
-
+* "w" to commit changes
 
         sudo -i
         partprobe
