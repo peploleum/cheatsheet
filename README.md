@@ -56,3 +56,14 @@ Copy uuid and replace in /etc/fstab
 > paste: P  
 > jump to eol and edit: A  
 > search: /  
+
+
+## Docker internet access ubuntu 16.04
+
+        vi /etc/default/docker
+        
+add following commands
+        
+        # Use DOCKER_OPTS to modify the daemon startup options.
+        DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4"
+
