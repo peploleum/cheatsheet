@@ -51,8 +51,8 @@ Copy uuid and replace in /etc/fstab
 
 ## vim
 
-> select block: v
-> copy selection: y
-> paste: P
-> jump to eol and edit: A
-> search: /
+> select block: v  
+> copy selection: y  
+> paste: P  
+> jump to eol and edit: A  
+> search: /  
