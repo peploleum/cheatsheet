@@ -56,7 +56,7 @@ Copy uuid and replace in /etc/fstab
 > paste: P  
 > jump to eol and edit: A  
 > search: /  
-> replace crlf eols: %s/^M//g
+> replace crlf eols: %s/^M//g  
 To enter ^M, type CTRL-V, then CTRL-M
 
 ## Docker internet access ubuntu 16.04
