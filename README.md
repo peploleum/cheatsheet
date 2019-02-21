@@ -68,3 +68,9 @@ add following commands
         # Use DOCKER_OPTS to modify the daemon startup options.
         DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4"
 
+## Kubernetes on Ubuntu 18.04
+>disable swap after reboot
+
+        sudo vi /etc/fstab
+        comment UUID line
+        sudo shutdown -r now
