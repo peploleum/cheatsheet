@@ -49,6 +49,11 @@ Copy uuid and replace in /etc/fstab
         swapon -a
 
 
+pretty append
+
+         echo 'dns-search openstacklocal corp.capgemini.com' | sudo tee -a /etc/network/interfaces
+         echo 'dns-nameservers 66.28.0.45 66.28.0.61 127.0.1.1' | sudo tee -a /etc/network/interfaces
+         
 ## vim
 
 > select block: v  
