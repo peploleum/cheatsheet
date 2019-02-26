@@ -64,6 +64,10 @@ pretty append
 > replace crlf eols: %s/^M//g  
 To enter ^M, type CTRL-V, then CTRL-M
 
+> show line numbers: :set number  
+> move current line to line 12: :m 12  
+
+
 ## Docker internet access ubuntu 16.04
 
         vi /etc/default/docker
