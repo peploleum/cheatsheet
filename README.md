@@ -83,3 +83,14 @@ add following commands
         sudo vi /etc/fstab
         comment UUID line
         sudo shutdown -r now
+        
+        
+## Ubuntu 18.04
+
+> set timezone
+
+        sudo dpkg-reconfigure tzdata
+        
+> set timezone by editing /etc/timezone
+
+        echo 'Europe/Paris' | sudo tee -a /etc/timezone
