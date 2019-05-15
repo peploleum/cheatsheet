@@ -94,3 +94,10 @@ add following commands
 > set timezone by editing /etc/timezone
 
         echo 'Europe/Paris' | sudo tee -a /etc/timezone
+
+## DCOS Spark
+
+> avoid spark auth requirement while requesting spark logs
+
+        dcos config set core.dcos_acs_token foobar
+
